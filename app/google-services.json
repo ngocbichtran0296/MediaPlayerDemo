@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "197976036474",
+    "firebase_url": "https://mediaplayerdemo-c7b0d.firebaseio.com",
+    "project_id": "mediaplayerdemo-c7b0d",
+    "storage_bucket": "mediaplayerdemo-c7b0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197976036474:android:9817e751565d089a",
+        "android_client_info": {
+          "package_name": "com.ngocbich.mediaplayerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197976036474-53ogm23s2eai23o5gshf7gm36dsrf9r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ngocbich.mediaplayerdemo",
+            "certificate_hash": "0ebba1c1d295fc882d2f95e943de406ee1bd8825"
+          }
+        },
+        {
+          "client_id": "197976036474-7ff4978heneojj9lgag0avh7c392q35p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6m1Kk4rz4kbQS-y29G_Y48TXk-D-_DUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197976036474-7ff4978heneojj9lgag0avh7c392q35p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

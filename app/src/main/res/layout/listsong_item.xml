@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@color/overlayBackground"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@color/overlayBackground"
+            android:src="@drawable/music"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Name of song"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@color/overlayBackground"
+                android:id="@+id/listsongName"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="Name of artist"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@color/overlayBackground"
+                android:id="@+id/listsongArtist"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+ <!--   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/listsongImage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/musicbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="Name of song"
+            android:textColor="@android:color/white"
+            android:background="@color/overlayBackground"
+            android:textSize="23sp"
+            android:id="@+id/listsongName"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>-->
+
+</android.support.v7.widget.CardView>
